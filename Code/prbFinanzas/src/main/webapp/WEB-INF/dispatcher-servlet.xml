@@ -36,6 +36,7 @@ and open the template in the editor.
           <property name="defaultEncoding" value="UTF-8" />
     </bean>
     
+    <mvc:view-controller path="/" view-name="index"/>
     <mvc:resources mapping="/resources/**" location="/resources/" />
     <mvc:annotation-driven />
 </beans>
